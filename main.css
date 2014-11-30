@@ -1,0 +1,282 @@
+/*
+===========================================
+Body
+============================================
+*/
+body{
+	display: block;
+	position: relative;
+	font-family: Helvetica;
+}
+
+
+
+
+/*
+===========================================
+Header
+============================================
+*/
+
+.header{
+	position: relative;
+	width: 90%;
+	height: 180px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo{
+	margin-left: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 100px;
+	height: 170px;
+	width: 55%;
+	background: url(http://i326.photobucket.com/albums/k427/thomnikki/DETAILED_zps2b3f16b4.jpg?t=1409417191);
+	background-repeat: no-repeat;
+	background-size: 218px 164px;
+	float: left;
+	position: absolute;
+}
+.contact{
+	margin-top: 15px;
+	margin-bottom: 5px;
+	margin-right: auto;
+	margin-left: 600px;
+	position: absolute;
+	height: 170px;
+	width: 40%;
+	float: right;
+}
+
+.nav{
+	position: absolute;
+	margin-bottom: 0px;
+	height: 30px;
+	width: 40%;
+	margin-top: 140px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-left: 600px;
+
+}
+
+.navbar{
+	list-style-type: none;
+	word-spacing: 1em;
+	margin: 0;
+	padding: 0;
+	font-family: Georgia;
+	font-color: #575757;
+}
+a:hover{
+	text-decoration: underline;
+}
+a{
+	text-decoration: none;
+	color: #575757;
+}
+
+
+
+li{
+	display: inline;
+	word-spacing: 2em;
+	font-weight: bold;
+	color: #575757;
+}
+
+h2{
+	color: #575757;
+	font-family: Georgia;
+}
+
+p{
+	font-family: Georgia;
+}
+.name{
+	text-align: right;
+	font-family: Georgia;
+	font-size: 42px;
+	font-style: oblique;
+	padding: 0px;
+	margin-bottom: 0;
+	font-color: #fe9156;
+	margin-left: 20px;
+	text-align: center;
+	padding-left: 100px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.lastname{
+	text-align: center;
+	font-family: Georgia;
+	font-size: 42px;
+	font-style: oblique;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-left: 157px;
+}
+
+.epa{
+	position: absolute;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	width: 20%;
+	height: 170px;
+	margin-left: 950px;
+
+}
+
+/*
+===========================================
+Slideshow
+============================================
+*/
+.slideshow{
+	position: relative;
+	width: 90%;
+	height: 660px;
+	margin-left: auto;
+	margin-right: auto;
+}
+iframe{
+	margin-left: auto;
+	margin-right: auto;
+}
+.show{
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.slidecontainer{
+	background-color: #F8F8F8;
+	border-top: 1px solid gray;
+	position: relative;
+}
+/*
+===========================================
+Middle
+============================================
+*/
+.middle{
+	position: relative;
+	width: 90%;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.about{
+	float:left;
+	width: 49%;
+	height: 100%;
+}
+input#learnmore{
+	cursor:pointer;
+	padding: 5px 25px;
+	background: #C79900;
+	border: 1px solid white;
+	border-radius: 5px;
+	box-shadow: 0 0 4px white;
+	color: white;
+	font-size:1.1em;
+
+}
+
+
+.services{
+	float:right;
+	width: 49%;
+	height: 100%;
+}
+.aboutus{
+	text-decoration: underline;
+}
+
+.service{
+	text-decoration: underline;
+
+}
+/*
+===========================================
+Lower
+============================================
+*/
+.lower{
+	position: relative;
+	width: 90%;
+	height: 270px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.recent{
+	text-decoration: underline;
+	text-align: left;
+
+}
+.pictures{
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: auto;
+	padding-right: auto;
+}
+.morepictures{
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: auto;
+	padding-right: auto;
+}
+
+.one{
+	margin-right: 75px;
+}
+.two{
+	margin-right: 75px;
+}
+.three{
+	margin-right: 75px;
+}
+
+
+.five{
+	margin-right: 75px;
+
+}
+
+.six{
+	margin-right: 75px;
+}
+.seven{
+	margin-right: 75px;
+}
+/*
+===========================================
+Bottom
+============================================
+*/
+
+.bottom{
+ position: absolute;
+ margin-bottom: 0px;
+ width: 90%;
+ height: 100px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.lowerbottom{
+	background-color: #F8F8F8;
+}
+
+.bottom p{
+	text-align: center;
+	font-family: Georgia;
+	color: #575757;
+}
